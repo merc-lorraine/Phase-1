@@ -1,0 +1,13 @@
+ORIGINALLY RESETTING SUBNET MASK- IP ROUTE OUTPUT:
+
+default via 192.168.10.1 dev enp0s3 
+default via 192.168.1.1 dev enp0s3 proto dhcp src 192.168.1.10 metric 100 
+192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.10 metric 100 
+192.168.1.1 dev enp0s3 proto dhcp scope link src 192.168.1.10 metric 100 
+192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.150 
+
+ATTEMPT No. XXXXX AT CLEANING UP THE GATEWAY TO ACCESS SECURE.TITANCORP.COM/192.168.10.193- IP ROUTE OUTPUT:
+
+default via 192.168.10.1 dev enp0s3 
+192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.150 
+
