@@ -1,0 +1,8 @@
+{
+  "operator": "LM",
+  "host_ip": "192.168.1.10",
+  "vm_sandbox_ip": "192.168.56.101",
+  "web_container_id": "hyper_stack_web_1",
+  "isolation_test": "PASSED",
+  "persistence_verified": true
+}
