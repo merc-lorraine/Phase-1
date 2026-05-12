@@ -1,0 +1,18 @@
+==================================================
+SESSION 25: SQL INJECTION EXFILTRATION REPORT
+==================================================
+
+1. AUTHENTICATION BYPASS
+* Tautology Payload Used: [' OR 1=1 --]
+
+2. DATABASE MAPPING (UNION ATTACK)
+* Number of Columns Discovered: [2]
+* Table Name Discovered: [Employees]
+
+3. DATA EXFILTRATION
+* CEO Salary Extracted: [$2,500,000]
+* Final UNION Payload Used: [' UNION SELECT name, salary FROM employees --]
+
+4. REMEDIATION
+* What is the primary defense against this attack?
+Answer: [The primary defense against SQL injection is the use of parameterized queries or prepared statements which treats all user input strictly as non-executable data. Prepared statements use parameterized placeholders to "lock" the query’s intent before the data is ever processed. Parameterized queries ensure that even if an attacker enters malicious SQL commands, or SQL injection, the database engine will interpret it as literal text rather than instructions.]
