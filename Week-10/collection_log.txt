@@ -1,0 +1,5 @@
+# DFIR COLLECTION LOG
+* Malicious Process Name: [nc]
+* Malicious Process ID (PID): [10]
+* Memory Dump MD5 Hash: [e26e47932eb2988ac3326ba3573518df]
+* Artifacts SHA256 Hash: [9540058df651b37e0ac240ecce2b4cf3b80fb87da4005909b11ef42bcb6d84ee]
