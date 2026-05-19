@@ -1,0 +1,18 @@
+==================================================
+SESSION 27: API SECURITY AUDIT LOG
+==================================================
+
+1. BOLA (ID SWAP) EXPLOITATION
+* Targeted User ID: [102]
+* Private Information Leaked: ["name": "CISO", "email": "boss@titan.com", "role": "Admin", "secret": "TITAN_MASTER_KEY_2026]
+
+2. BUSINESS LOGIC EXPLOITATION (DISCOUNT HUNTER)
+* Hidden Discount Code Discovered: [9912]
+* Method Used: [I used Burp Suite Intruder to test for a business logic flaw in the checkout process. After capturing a POST request to the /api/v1/checkout endpoint with a sample discount code, I sent the request to Intruder and configured the discount code field as the attack position. I then set a numeric payload range from 9900–9999 and launched the attack to automate testing of possible discount codes. By monitoring the response length, I identified the valid hidden discount code when the server response differed from the others.]
+
+3. REMEDIATION RECOMMENDATION
+* How would you fix the BOLA vulnerability?
+Answer: Enforce role-based, ownership-based access controls or object-level authorization on every request
+
+* How would you fix the Brute-Force vulnerability in the discount field?
+Answer: Limit how many discount code attempts a user or IP can make within a certain timeframe. Require CAPTCHA after several failed discount attempts to stop automated attacks and use strong and completely random discount codes.
