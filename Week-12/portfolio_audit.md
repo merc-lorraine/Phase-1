@@ -16,8 +16,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * final_threat_report.txt
      * harden.sh
      * threat_ips.txt
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 02 — Networking & Protocol Analysis
 - Folder present: Yes
@@ -26,8 +26,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * protocol_audit.txt
      * subnet_blueprint.txt
      * tlab_report.txt
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 03 — Python Scripting for Security
 - Folder present: Yes
@@ -35,11 +35,11 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * port_check.py
      * s07reflection.md
      * system_auditor.py
-     * brute_detector.py (To be moved inside this folder)
-     * incident_response.py (To be moved inside this folder)
-     * threat_report.json (To be moved inside this folder)
-- notes.md present: No
-- Notes: Add notes.md; Move brute_detector.py && incident_response.py && threat_report.json inside this folder
+     * brute_detector.py
+     * incident_response.py
+     * threat_report.json
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 04 — Virtualization & Containers
 - Folder present: Yes
@@ -48,8 +48,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * docker-compose.yml
      * hyperstack_audit.json
      * sandbox_report.txt
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 05 — Identity, Access & Active Directory
 - Folder present: Yes
@@ -59,8 +59,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * TLAB05-tlab5_report.txt.png
      * unified_identity.png
      * onboard_engineers_proof_*.png
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 06 — Phase 1 Midterm
 - Folder present: Yes
@@ -68,8 +68,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * HardenedOutpost_SAD.pdf
      * practical_exam_report.txt
      * readiness_check.log
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 07 — Reconnaissance & Vulnerability Analysis
 - Folder present: Yes
@@ -78,8 +78,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * ThreatProfile_CloudNano.md
      * nmap_scan_results.txt
      * remediation_plan.md
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 08 — Exploitation Frameworks
 - Folder present: Yes
@@ -88,8 +88,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * escalation_path.txt
      * exploit_verification_trial.png
      * pivot_success-P1W8D3 S24.png
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 09 — Web Application Security
 - Folder present: Yes
@@ -98,8 +98,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * api_audit.log
      * sqli_report.txt
      * xss_payloads.txt
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 10 — Digital Forensics & Incident Response
 - Folder present: Yes
@@ -108,8 +108,8 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * attack_timeline.csv
      * collection_log.txt
      * forensic_findings.md
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ### Week 11 — Active Defense: Firewalls, IDS & EDR
 - Folder present: Yes
@@ -118,14 +118,14 @@ This repository summarizes the knowledge, practical skills, and cybersecurity co
      * custom_ids.rules
      * edr_policy.xml
      * firewall_config.sh
-- notes.md present: No
-- Notes: Add notes.md
+- notes.md present: Yes
+- Notes: N/A
 
 ## Repository Standards Check
 - README.md present and complete: Yes
 - Repository visibility set to Public: Yes
 - All week folders present (week-01 through week-11): Yes
-- notes.md present in every week folder: No
+- notes.md present in every week folder: Yes
 - week-12/ folder contains portfolio_audit.md: Yes
 
 ## Professional Reflection
