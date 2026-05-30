@@ -53,12 +53,13 @@ The purpose of this repository is to showcase hands-on cybersecurity skills deve
 * Vulnerability validation
 * Business logic testing
 
-## Digital Forensics
+## Web Application Security
 
-* Chain-of-custody procedures
-* Memory analysis using Volatility
-* Disk forensics using Autopsy
-* Evidence hashing and integrity validation
+* SQL Injections
+* Reflected and Stored XSS
+* CSRF Attacks
+* BOLA exploitations
+* Live Interception via Burp Suite
 
 ## Active Defense
 
@@ -71,16 +72,16 @@ The purpose of this repository is to showcase hands-on cybersecurity skills deve
 
 # Tools & Technologies
 
-| Category               | Tools                        |
-| ---------------------- | ---------------------------- |
-| Operating Systems      | Ubuntu Linux, Windows Server |
-| Networking             | Wireshark, tcpdump, UFW      |
-| Scripting              | Python                       |
-| Containerization       | Docker, Docker Compose       |
-| Offensive Security     | Nmap, Metasploit             |
-| Forensics              | Autopsy, Volatility          |
-| Detection & Monitoring | Suricata, Sysmon             |
-| Development Tools      | VS Code, Git, GitHub         |
+| Category               | Tools                                 |
+| ---------------------- | --------------------------------------|
+| Operating Systems      | Ubuntu Linux, Windows Server          |
+| Networking             | Wireshark, tcpdump, UFW               |
+| Scripting              | Python                                |
+| Containerization       | Docker, Docker Compose                |
+| Offensive Security     | Nmap, Metasploit                      |
+| Application Security   | Burp Suite, SQL, XSS & CSRF Attack    |
+| Detection & Monitoring | Suricata, Sysmon                      |
+| Development Tools      | VS Code, Git, GitHub                  |
 
 ---
 
@@ -128,7 +129,7 @@ Validated vulnerable services by:
 * Gaining shell access
 * Demonstrating impact of misconfigured services
 
-## Web Application Security Assessment
+## Web Application Security Assessment (Week-9)
 
 Conducted a comprehensive web application security assessment by:
 
